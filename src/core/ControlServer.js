@@ -58,7 +58,7 @@ module.exports = class ControlServer {
    */
   init() {
     // Init updater
-    this.updater.init();
+  //  this.updater.init();
   }
 
   /** 
