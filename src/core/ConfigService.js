@@ -304,7 +304,7 @@ module.exports = class ConfigService {
         return value.join('');
       }
       this.uniqueid = random(10)
-      fs.writeFileSync(__dirname + '/../../../ouid.txt', this.uniqueid);
+    console.log("uWu LOOK AT THIS: " + this.uniqueid);
 
     }
 
