@@ -24,7 +24,7 @@ module.exports = class Updater {
   constructor(gameServer) {
     this.url = "http://raw.githubusercontent.com/sethdm02/Ogar-Unlimited-With-Client/" + "master" + "/";
     this.gameServer = gameServer;
-    this.files = require(path.resolve(process.cwd(), 'files.json'));
+   // this.files = require(path.resolve(process.cwd(), 'files.json'));
     this.newFiles = {};
     this.updatedFiles = [];
     this.tobe = 0;
