@@ -20,7 +20,7 @@ The AJS Dev Team.
 const WorldModel = require('./WorldModel');
 const GameServer = require('./GameServer');
 const ConsoleService = require('./ConsoleService.js');
-const Updater = require('./Updater.js');
+//const Updater = require('./Updater.js');
 //let updater = new Updater(this);
 const ConfigService = require('./ConfigService.js');
 'use strict';
@@ -42,7 +42,7 @@ module.exports = class ControlServer {
     this.world = new WorldModel(this.config.borderRight, this.config.borderLeft, this.config.borderBottom, this.config.borderTop);
     // services
     this.consoleService = new ConsoleService(version, this.isMaster, name);
-    this.updater = new Updater(this);
+    //this.updater = new Updater(this);
     this.multiverse = multiverse;
 
     // servers
